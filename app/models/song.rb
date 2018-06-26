@@ -7,10 +7,7 @@ class Song < ActiveRecord::Base
   end
 
   def drake_made_this
-    sql = <<-SQL
-    SQL  
-
-    self.artist
+  
     # when this method is called it should assign the song's artist to Drake
   end
 end
